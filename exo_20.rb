@@ -7,7 +7,7 @@ dieze = ""
 space = ""  
 
 while i < nb
-	space = " " + (nb-i-1)
+	space = " " * (nb-i-1)
 	dieze = dieze + "#"
 	puts space + dieze
 	i = i + 1
